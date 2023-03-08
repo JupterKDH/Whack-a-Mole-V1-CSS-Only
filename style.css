@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url("assets/fundo.svg");
+ 
+  background-size: cover;
+ 
+}
+
+.container{
+  width: 200rem;
+  height: 100rem;
+
+  
+  margin: 60rem auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.holes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: space-around;
+
+  gap: 27rem;
+
+  margin: 0 auto;
+  
+}
+
+
+.mole{
+  width: 222px;
+  height: 169px;
+  
+}
+
+
+.hole1 .mole{
+  animation: Toupeira-top 1s 2s both;
+ 
+  
+}
+.hole2 .mole{
+  animation: Toupeira-top 1s 10s both ;
+ 
+  
+}
+.hole3 .mole{
+  animation: Toupeira-top 1s 12s both ;
+ 
+  
+}
+.hole4 .mole{
+  animation: Toupeira-top 1s 18s both ;
+ 
+  
+}
+.hole5 .mole{
+  animation: Toupeira-top 1s 6s both ;
+ 
+  
+}
+.hole6 .mole{
+  animation: Toupeira-top 1s 22s both ;
+ 
+  
+}
+.hole7 .mole{
+  animation: Toupeira-top 1s 20s both ;
+ 
+  
+}
+.hole8 .mole{
+  animation: Toupeira-top 1s 8s both ;
+ 
+  
+}
+.hole9 .mole{
+  animation: Toupeira-top 1s 16s both ;
+ 
+  
+}
+.hole10 .mole{
+  animation: Toupeira-top 1s 14s both ;
+ 
+  
+}
+.hole11 .mole{
+  animation: Toupeira-top 1s 24s both ;
+ 
+  
+}
+.hole12 .mole{
+  animation: Toupeira-top 1s 4s both ;
+ 
+  
+}
+
+
+
+
+
+
+@keyframes Toupeira-top{
+  0% {
+    background-image: url("assets/toupeira6.svg");
+  }
+  10% {
+    background-image: url("assets/toupeira6.svg");
+  }
+
+  20% {
+    background-image: url("assets/toupeira1.svg");
+  }
+
+  40% {
+    background-image: url("assets/toupeira2.svg");
+  }
+
+  60% {
+    background-image: url("assets/toupeira3.svg");
+  }
+
+  80% {
+    background-image: url("assets/toupeira4.svg");
+  }
+
+  90% {
+    background-image: url("assets/toupeira5.svg");
+  }
+
+  100% {
+    background-image: url("assets/toupeira6.svg");
+  }
+}
+
